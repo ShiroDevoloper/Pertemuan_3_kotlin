@@ -1,6 +1,7 @@
 package Polymorphism
 //Percobaan Static Polymorphism dengan mendefenisikan beberapa fungsi overloading
 // dengan nama yang sama tetapi berbeda karakteristik parameter (jenis type dan jumlah parameter)
+
 fun printNumber(n : Number){
     println("Using printNumber(n : Number)")
     println(n.toString() + "\n")
